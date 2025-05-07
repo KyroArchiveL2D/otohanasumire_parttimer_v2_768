@@ -51689,7 +51689,7 @@ void main(void){
                     type: "primary",
                     onClick: C,
                   },
-                  { default: be(() => O[22] || (O[22] = [vr("设置")])), _: 1 }
+                  { default: be(() => O[22] || (O[22] = [vr("Pengaturan")])), _: 1 }
                 ),
                 ne(
                   k,
@@ -51703,7 +51703,7 @@ void main(void){
                           default: be(() => [
                             ne(
                               K,
-                              { label: "Hint" },
+                              { label: "Petunjuk" },
                               {
                                 default: be(() => [
                                   ne(
@@ -51715,7 +51715,7 @@ void main(void){
                                           O[23] ||
                                           (O[23] = [
                                             vr(
-                                              "屏幕的右上角点击开关面板 (Click the switch panel in the upper screen right corner.)"
+                                              "Klik tombol panel di pojok kanan atas layar."
                                             ),
                                           ])
                                       ),
@@ -51728,7 +51728,7 @@ void main(void){
                             ),
                             ne(
                               K,
-                              { label: "Scale" },
+                              { label: "Skala" },
                               {
                                 default: be(() => [
                                   ne(
@@ -51755,7 +51755,7 @@ void main(void){
                             ),
                             ne(
                               K,
-                              { label: "Screen(x)" },
+                              { label: "Posisi (x)" },
                               {
                                 default: be(() => [
                                   ne(
@@ -51782,7 +51782,7 @@ void main(void){
                             ),
                             ne(
                               K,
-                              { label: "Screen(y)" },
+                              { label: "Posisi (y)" },
                               {
                                 default: be(() => [
                                   ne(
@@ -51809,7 +51809,7 @@ void main(void){
                             ),
                             ne(
                               K,
-                              { label: "Rotation" },
+                              { label: "Rotasi" },
                               {
                                 default: be(() => [
                                   ne(
@@ -51836,7 +51836,7 @@ void main(void){
                             ),
                             ne(
                               K,
-                              { label: "Bgm" },
+                              { label: "Musik" },
                               {
                                 default: be(() => [
                                   ne(
@@ -51863,7 +51863,7 @@ void main(void){
                             ),
                             ne(
                               K,
-                              { label: "Voice" },
+                              { label: "Suara" },
                               {
                                 default: be(() => [
                                   ne(
@@ -51891,7 +51891,7 @@ void main(void){
                             ),
                             ne(
                               K,
-                              { label: "Text(x)" },
+                              { label: "Posisi Teks (x)" },
                               {
                                 default: be(() => [
                                   ne(
@@ -51915,7 +51915,7 @@ void main(void){
                             ),
                             ne(
                               K,
-                              { label: "Text(y)" },
+                              { label: "Posisi Teks (y)" },
                               {
                                 default: be(() => [
                                   ne(
@@ -51939,7 +51939,7 @@ void main(void){
                             ),
                             ne(
                               K,
-                              { label: "FontSize" },
+                              { label: "Ukuran Font" },
                               {
                                 default: be(() => [
                                   ne(
@@ -51963,7 +51963,7 @@ void main(void){
                             ),
                             ne(
                               K,
-                              { label: "Texture(Restart)" },
+                              { label: "Tekstur (Mulai Ulang)" },
                               {
                                 default: be(() => [
                                   ne(
@@ -52022,7 +52022,7 @@ void main(void){
                             ),
                             ne(
                               K,
-                              { label: "Language" },
+                              { label: "Bahasa" },
                               {
                                 default: be(() => [
                                   ne(
@@ -52072,7 +52072,7 @@ void main(void){
                             ),
                             ne(
                               K,
-                              { label: "AutoTalk(s)" },
+                              { label: "Bicara Otomatis (det)" },
                               {
                                 default: be(() => [
                                   ne(
@@ -52097,7 +52097,7 @@ void main(void){
                             ),
                             ne(
                               K,
-                              { label: "Other" },
+                              { label: "Lain-lain" },
                               {
                                 default: be(() => [
                                   ne(
@@ -52109,7 +52109,7 @@ void main(void){
                                         (O[18] = (D) =>
                                           (e.value.showTouch = D)),
                                       "inactive-text":
-                                        "ShowTouchArea(显示触摸区域)",
+                                        "Tampilkan Area Sentuh",
                                       onInput: O[19] || (O[19] = (D) => A(D)),
                                     },
                                     null,
@@ -52125,7 +52125,7 @@ void main(void){
                                         O[20] ||
                                         (O[20] = (D) =>
                                           (e.value.showTalkDialog = D)),
-                                      "inactive-text": "ShowText(显示文本框)",
+                                      "inactive-text": "Tampilkan Kotak Teks",
                                     },
                                     null,
                                     8,
@@ -52140,7 +52140,7 @@ void main(void){
                                         O[21] ||
                                         (O[21] = (D) =>
                                           (e.value.startScene = D)),
-                                      "inactive-text": "StartScene(开始场景)",
+                                      "inactive-text": "Adegan Awal",
                                     },
                                     null,
                                     8,
@@ -52154,7 +52154,7 @@ void main(void){
                               _e,
                               {
                                 onConfirm: b,
-                                title: "初始化设定(需要切换壁纸才能生效)",
+                                title: "Pengaturan Awal (perlu ganti wallpaper dulu baru aktif)",
                               },
                               {
                                 reference: be(() => [
@@ -52166,7 +52166,7 @@ void main(void){
                                         () =>
                                           O[27] ||
                                           (O[27] = [
-                                            vr("初始化设定(InitSetting)"),
+                                            vr("Pengaturan Awal (InitSetting)"),
                                           ])
                                       ),
                                       _: 1,

@@ -21,7 +21,7 @@
     "resolution": "2k",
     "startAnimation": "Start_Idle_01",
     "startScene": true,
-    "language": "Bahasa Indonesia"
+    "language": "English"
   },
   "EventInfos" : [
     {"BoneName": "bone28", "Width": 1500, "Height": 800, "Animations":
@@ -60,7 +60,7 @@
       "CH0287_MemorialLobby_5_1": "さあ、お飲みください。",
       "CH0287_MemorialLobby_5_2": "私も一杯、いただきます。"
     },
-    "Bahasa Indonesia": {
+    "English": {
       "CH0287_MemorialLobby_1_1": "Kerja bagus, Trainer!",
       "CH0287_MemorialLobby_1_2": "Larinya tadi bener-bener luar biasa.",
       "CH0287_MemorialLobby_1_3": "Silakan, aku sudah siapkan minuman untukmu.",
